@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio - Fulana de Tal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-top">
+            <div class="header-left">
+                <img src="foto_caio.jpeg" alt="Foto de Caio Maximus Morato Rosa" class="profile-photo">
+                <h1 class="header-title">Caio Maximus Morato Rosa</h1>
+            </div>
+            <nav class="header-nav">
+                <a href="#sobre" class="nav-link">Sobre Mim</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#hobbies" class="nav-link">Hobbies</a>
+                <a href="#formacao" class="nav-link">Formação</a>
+                <a href="#projetos" class="nav-link">Projetos</a>
+                <a href="#contato" class="nav-link">Contato</a>
+            </nav>
+        </div>
+        <p class="header-description">Olá, meu nome é Caio, bom dia, isso é um portifólio.</p>
+        <p class="header-description">Eu sou estudante de ADS na Fatec e atualmente estou participando no projeto Oracle Next Education na Alura.</p>
+    </header>      
+    <section id="sobre" class="section">
+        <h2 class="section-title">Sobre Mim</h2>
+        <p class="section-text">Sou um estudante em busca da primeira oportunidade de emprego na area da tecnologia, sempre aprimorando conhecimento e evoluindo.</p>
+    </section>
+    <section id="skills" class="section">
+        <h2 class="section-title">Skills</h2>
+        <div class="skills-list">
+            <div class="skills-item">
+                <img src="foto_html5.png" alt="HTML5" class="skill-icon">
+                <p>HTML5</p>
+            </div>
+            <div class="skills-item">
+                <img src="foto_javascript.png" alt="JavaScript" class="skill-icon">
+                <p>JavaScript</p>
+            </div>
+            <div class="skills-item">
+                <img src="foto_logica.gif" alt="Lógica de Programação" class="skill-icon">
+                <p>Lógica de Programação</p>
+            </div>
+            <div class="skills-item">
+                <img src="foto_css.png" alt="CSS" class="skill-icon">
+                <p>CSS</p>
+            </div>
+        </div>
+    </section>    
+    <section id="hobbies" class="section">
+        <h2 class="section-title">Hobbies</h2>
+        <ul class="hobbies-list">
+            <li class="hobbies-item">Assistir vídeos</li>
+            <li class="hobbies-item">Ler</li>
+            <li class="hobbies-item">Jogar com os amigos</li>
+            <li class="hobbies-item">Geopolítica</li>
+        </ul>
+    </section>
+    <section id="formacao" class="section">
+        <h2 class="section-title">Formação Acadêmica</h2>
+        <ul class="formacao-list">
+            <li class="formacao-item">Análise e Desenvolvido de Sistemas - Em andamento (Fatec)</li>
+            <li class="formacao-item">Praticando Lógica De Programação: Challenge Decodificador De Texto - 2024 (Alura)</li>
+            <li class="formacao-item">Database Foundations - 2024 (Oracle Academy)</li>
+        </ul>
+    </section>
+    <section id="projetos" class="section">
+        <h2 class="section-title">Projetos</h2>
+        <ul class="projetos-list">
+            <li class="projetos-item">
+                <img src="foto_projeto_decodificador.jpeg" alt="Ícone do Decodificador de Texto" class="projetos-icon">
+                Decodificador de Texto <a href="https://github.com/CaioMaximusMoratoRosa/ProjetoAlura" class="projetos-link">Repositório</a><a href="#" class="projetos-link">Ver Demo</a>
+            </li>
+            <li class="projetos-item">
+                <img src="foto_projeto_pedra.jpeg" alt="Ícone do Jogo pedra papel e tesoura" class="projetos-icon">
+                Jogo de Pedra Papel e Tesoura <a href="#" class="projetos-link">Repositório</a><a href="#" class="projetos-link">Ver Demo</a>
+            </li>
+            <li class="projetos-item">
+                <img src="foto_projeto_perfis.jpeg" alt="Ícone do Projeto dos Perfis" class="projetos-icon">
+                Perfis para amigos <a href="https://github.com/CaioMaximusMoratoRosa/perfis" class="projetos-link">Repositório</a><a href="https://perfis.vercel.app" class="projetos-link">Ver Demo</a>
+            </li>
+            <li class="projetos-item">
+                <img src="foto_projeto_login.jpeg" alt="Ícone da Tela de login" class="projetos-icon">
+                Tela de Login <a href="https://github.com/CaioMaximusMoratoRosa/Login" class="projetos-link">Repositório</a><a href="https://login-dun-gamma.vercel.app" class="projetos-link">Ver Demo</a>
+            </li>
+        </ul>
+    </section>    
+    <section id="contato" class="section">
+        <h2 class="section-title">Contato</h2>
+        <form class="contato-form">
+            <label for="nome" class="form-label">Nome:</label>
+            <input type="text" id="nome" name="nome" class="form-input" required>
+            <label for="email" class="form-label">E-mail:</label>
+            <input type="email" id="email" name="email" class="form-input" required>
+            <label for="assunto" class="form-label">Assunto:</label>
+            <input type="text" id="assunto" name="assunto" class="form-input">
+            <label for="mensagem" class="form-label">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" class="form-textarea" rows="4"></textarea>
+            <button type="submit" class="form-button">Enviar mensagem</button>
+        </form>
+    </section>
+    <footer class="footer">
+        <p class="footer-text">Desenvolvido por Caio Maximus Morato Rosa</p>
+    </footer>
+</body>
+</html>

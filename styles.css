@@ -1,0 +1,184 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: rgb(35, 35, 236);
+    padding: 20px;
+    text-align: center;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.profile-photo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.header-title {
+    margin: 0;
+    font-size: 1.3em;
+    color: white;
+}
+
+.header-nav {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+    flex-grow: 1;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1em;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+.header-description {
+    margin: 0;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 1.2em;
+    color: white;
+}
+
+.section {
+    padding: 20px;
+    border-bottom: 1px solid rgb(35, 35, 236);
+    background-color: white;
+}
+
+.section-title {
+    color: blue;
+}
+
+.section-text{
+    color: blue;
+}
+
+.skills-list{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.skills-item{
+    text-align: center;
+    margin: 10px;
+    width: 20%;
+}
+
+.skills-item p {
+    margin: 0;
+    color: blue;
+    font-size: 1.1em;
+}
+
+.skill-icon {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.hobbies-list, .formacao-list {
+    list-style: none;
+    padding: 0;
+}
+
+.hobbies-item, .formacao-item {
+    margin-bottom: 5px;
+    color: blue;
+}
+
+.projetos-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.projetos-item {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: blue;
+}
+
+.projetos-icon {
+    width: 300px;
+    height: 170px;
+    margin-bottom: 5px;
+}
+
+.projetos-link {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+.projetos-link:hover {
+    text-decoration: underline;
+}
+
+.contato-form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-label {
+    margin-top: 10px;
+    color: blue;
+}
+
+.form-input, .form-textarea{
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 7px;
+    border: solid 1px rgb(35, 35, 236);
+}
+
+.form-button {
+    padding: 10px;
+    margin-top: 5px;
+    background-color: white;
+    border: solid 2px rgb(35, 35, 236);
+    border-radius: 7px;
+    color: blue;
+    cursor: pointer;
+}
+
+.form-button:hover{
+    background-color: rgb(35, 35, 236);
+    color: white;
+}
+
+.footer {
+    background-color: rgb(35, 35, 236);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 1.6em;
+}
